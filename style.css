@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+#board {
+    display: grid;
+    /* Remove fixed 5-column layout, will be set dynamically in JS */
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.correct {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.present {
+    background-color: #c9b458;
+    color: white;
+}
+
+.absent {
+    background-color: #787c7e;
+    color: white;
+}
